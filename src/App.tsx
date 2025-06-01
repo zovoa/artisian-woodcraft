@@ -11,6 +11,7 @@ import CheckoutPage from './pages/CheckoutPage';
 function App() {
   return (
     <Router basename="/artisian-woodcraft">
+      <CartProvider>
         <WishlistProvider>
           <Routes>
             <Route path="/" element={<MainLayout />}>
